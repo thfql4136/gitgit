@@ -1,0 +1,140 @@
+html, body{height:100%; width:100%;}
+header{height:100%;}
+.wrap{width:100%; height: 100%;  
+     background-image: url("../img/main/parallax1.jpg"); background-size: cover; background-repeat: no-repeat;
+    background-attachment: fixed;  z-index: -1; opacity: 0.7;}
+.gnb{position: fixed; width:100%; z-index: 111111; font-size: 1.2rem;}
+.le_gnb{float: left; }
+.le_gnb li{display: inline-block; padding:1em;}
+.le-gnb li a{color:#222;}
+.le_gnb li > .fa{padding-right:0.2em;}
+.le_gnb li:hover{background-color: #ccc; color:#000;  z-index:1111111;}
+.ri_gnb{float: right;}
+.ri_gnb li {padding:1em;}
+.ri_gnb li:hover{background-color: rgba(201, 89, 89,1); color:#fff;}
+
+.menu .sub{display: none;}
+#nav{position: relative; display: none;}
+.sub li{width:100%; background-color:rgba(255,255,255,0.7); font-size:1em; position: absolute;  left:0; height:50px; }
+.sub li:nth-child(1){   top: 50px; padding:0.5em; }
+.sub li:nth-child(2){  top: 100px;  padding:0.5em;}
+.sub li:nth-child(3){   top: 150px; padding:0.5em;}
+.sub li:hover{ background:#222; color:#fff; }
+#nav ul.menu li .sub a{display:block; width:100%; z-index:999; }
+.menu > li > .fa{color:#000; float:right; padding:1.2em;}
+.menu > li > .fa:hover{background-color: #222; color:#fff;}
+
+.table{display: table; width:100%; height: 100%; position: absolute; top:0%;}
+.cell{display: table-cell; vertical-align: middle;}
+.cell h2{ background-color: #222; width:30%; margin:auto; color:#666; padding:0.2em 0;  letter-spacing: 0.2em; text-align: center;}
+
+section{width:100%; margin:auto; text-align:center; margin:5rem 0; color:#666;}
+.banner{max-width:960px; margin:auto;}
+.banner h2{margin-bottom: 1em;}
+.banner > p{margin-bottom: 2em;}
+.ban > p{text-align: justify; line-height: 2em; margin-bottom: 3em;}
+.name{margin:auto;}
+.name_img{float: left; width:47%;}
+.name_img > p{line-height: 5em;}
+.name_img  span{margin-right:1em;}
+.name_img{opacity: 0.7; }
+.name_img:hover{opacity: 1;}
+.name_txt{width:47%; float:right; line-height: 2.5em;}
+
+.good{margin-top:4em;}
+.good h4{font-weight: 400; padding-bottom: 1.5em;}
+.title{letter-spacing: 2em; text-align: left; margin-bottom: 1.5em;}
+.box{background-color: #ccc; margin-bottom: 1.5em;}
+.box > .gray_one{width:90%; background-color: #222; padding:0.5em 0;}
+.box > .gray_two{width:85%; background-color: #222; padding:0.5em 0;}
+.box > .gray_three{width:75%; background-color: #222; padding:0.5em 0;}
+
+.mid{width:100%; margin-top:5em;}
+.mid li{float:left; background-color: #666; width:25%; padding:3em 0;}
+.mid span{display: block; color:#fff;}
+
+.port{width:100%; height: 464px;  }
+.port_img{background-image: url("../img/main/parallax2.jpg"); background-repeat: no-repeat; background-size: cover; width:100%; height: 100%;
+background-attachment: fixed;}
+.table_box{display: table; width:100%; height: 100%;}
+.cell_box{display: table-cell; vertical-align: middle;}
+.folio > h1{color:#fff; letter-spacing: 0.5em;}
+
+.work{max-width:960px; margin:5em auto 0;}
+.work h2{margin-bottom: 1em;}
+.work > p{margin-bottom: 2em;}
+.work span{display: block; }
+.work_img{ width:100%; margin-top:3em;}
+.work_img > li{width:23%; float: left; margin-right:2%; margin-bottom: 2%; cursor: pointer;}
+.work_img > li:hover{opacity: 0.7;}
+.work_img >li:nth-child(4), .work_img > li:nth-child(8){margin-right: 0;}
+.work_img > li:nth-child(5), .work_img > li:nth-child(6), .work_img > li:nth-child(7), .work_img > li:nth-child(8){margin-bottom: 0;}
+.work_img img{max-width:100%;}
+.btn{width:100px;  background-color: rgb(231, 224, 224); margin:3em 0;}
+.btn p{line-height: 1em; margin-top:10px;}
+.btn:hover{background-color: #ccc; color:#000;}
+
+.contact{width:100%; height:464px;}
+.contact_img{background-image: url("../img/main/parallax3.jpg");  background-repeat: no-repeat; background-size: cover; width:100%; height: 100%;
+    background-attachment: fixed;}
+.tact > h1{color:#fff; letter-spacing: 0.5em;}
+
+.where{max-width:960px; margin:5em auto 0;}
+.where h2{margin-bottom: 1em;}
+.where > p{margin-bottom: 3em;}
+.where_box > div{float:left; width:39%; height: 300px; margin-right:2%;}
+.where_box > ul{float: left; width:59%; text-align:left;}
+.where_box > ul >li{margin-bottom: 0.5em; font-size: 1.3em;}
+.where_box > ul > li:nth-child(4){margin-top: 1em; font-size: 1em; margin-bottom: 1em;}
+.where_box input[name="username"]{width:47%; margin-right: 5%; padding:0.5em 0;}
+.where_box input[name="email"]{width:47%;  padding:0.5em 0;}
+.where_box input[name="message"]{width:100%; margin-top:1em;  padding:0.5em 0;}
+.where_box button[name="send"]{width:150px; float: right; margin-top:1em;  padding:1em 0.5em; color:#fff; background-color: #222; border:0; border-radius: 3px;}
+.where_box button[name="send"]:hover {background-color: #666; color:#000;}
+.where_box button[name="send"] span{margin-left:0.5em; }
+
+.footer{width:100%; background-color: #666; color:#fff; margin:auto; text-align: center; padding:5rem; }
+.footer:hover{background-color: #222; }
+.footer > .sns{margin:2em 0; }
+.footer:hover .foot_btn{color: #222; }
+.foot_btn{background-color: #fff; color:#666; width:100px; margin:auto; border-radius: 3px; padding:0.3em 0.5em;}
+.foot_btn:hover{background-color: #e0e0e0; cursor: pointer;}
+.sns > .fa{cursor: pointer; padding:0 0.2em; font-size: 1.5em;}
+.footer_txt a{color:#fff; }
+
+@media screen and (max-width:960px) {
+    #nav{display: none;}
+    .cell h2{ font-size: 2em; }
+    .ban{width:90%; margin:auto;}
+    .name{width:90%;}
+    .name_txt{float:right; line-height: 2em;}
+    .good ul{width:90%; margin:auto;}
+    .work_img{ width:90%; margin:auto;}
+    .where_box{width:90%; margin:auto;}
+}
+
+@media screen and (max-width:768px){
+    html{font-size:87.5%;}
+    .cell h2{ width:50%; font-size: 1.8em; }  
+}
+
+@media screen and (max-width:600px){
+    html{font-size:75%;}
+    .le_gnb li {display: none;}
+    .le_gnb li:first-child{display: block;}
+    .ri_gnb{display: none;}
+    .cell h2{width:30%;}
+    .cell span{display: none; }
+    .name_img{float: none; width:95%;}
+    .name_txt{ display: none; }
+    .mid li{float:none; width:100%;}
+    .work_img > li{width:98%; float: none;}
+    .work_img > li:nth-child(1), .work_img > li:nth-child(2), .work_img > li:nth-child(3) {margin-bottom: 0;}
+    .work_img > li:nth-child(8){margin-bottom: 0;}
+    .work_img img{width:100%;}
+    .where_box > div{float:none; width:95%;}
+    .where_box > ul{float: none; width:95%; margin-top:2em;}
+    .where_box input[name="username"]{width:100%; margin-bottom: 1em;}
+    .where_box input[name="email"]{width:100%; }
+    #nav{display: block;}
+}

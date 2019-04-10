@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script defer src="/__/firebase/5.5.2/firebase-app.js"></script>
+    <script defer src="/__/firebase/5.5.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.5.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.5.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.5.2/firebase-storage.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="gnb clear" id="gnb">
+            <ul class="le_gnb">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li><span class="fa fa-user"></span>ABOUT</li>
+                <li><span class="fa fa-th"></span>PORTFOLIO </li>
+                <li><span class="fa fa-envelope"></span>CONTACT</li>
+            </ul>
+            <ul class="ri_gnb">
+                <li><span class="fa fa-search"></span></li>
+            </ul>
+            <div id="nav">
+                <ul class="menu">
+                    <li>
+                        <span class="fa fa-align-justify"></span>
+                        <ul class="sub">
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">PORTFOLIO </a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="wrap">
+            <div class="table">
+                <div class="cell">
+                    <h2><span>MY WEBSITE </span>LOGO</h2>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="banner">
+            <h2>ABOUT ME</h2>
+            <p><em>I love photography</em></p>
+            <div class="ban">
+                <p>
+                    We have created a fictional "personal" website/blog, and our fictional character is
+                    a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="name clear">
+                <div class="name_img">
+                    <p><span class="fa fa-user">My Name</span></p>
+                    <img src="../img/main/avatar_hat.jpg" class="img">
+                </div>
+                <div class="name_txt">
+                    <p>
+                        Welcome to my website. I am lorem ipsum consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="good">
+                <h4>Im really good at:</h4>
+                <ul>
+                    <li class="title"><span class="fa fa-camera">Photography </span></li>
+                    <li class="box">
+                        <div class="gray_one">90%</div>
+                    </li>
+                    <li class="title"><span class="fa fa-laptop">Web Design </span></li>
+                    <li class="box">
+                        <div class="gray_two">85%</div>
+                    </li>
+                    <li class="title"><span class="fa fa-image">Photoshop </span></li>
+                    <li class="box">
+                        <div class="gray_three">75%</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="clear">
+                <li>
+                    <span>
+                        <h4>14+</h4>
+                    </span>
+                    <span>
+                        <h4>Partners</h4>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <h4>55+</h4>
+                    </span>
+                    <span>
+                        <h4>Projects Done</h4>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <h4>89+</h4>
+                    </span>
+                    <span>
+                        <h4>Happy Clients</h4>
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        <h4>150+</h4>
+                    </span>
+                    <span>
+                        <h4>Meetings</h4>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="port">
+            <div class="port_img">
+                <div class="table_box">
+                    <div class="cell_box">
+                        <div class="folio">
+                            <h1>PORTFOLIO</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <h2>MY WORK</h2>
+            <p><em>
+                    <span>Here are some of my latest lorem work ipsum tipsum.</span>
+                    <span>Click on the images to make them bigger</span>
+                </em></p>
+            <ul class="work_img clear">
+                <li><img src="../img/main/p1.jpg"></li>
+                <li><img src="../img/main/p2.jpg"></li>
+                <li><img src="../img/main/p3.jpg"></li>
+                <li><img src="../img/main/p4.jpg"></li>
+                <li><img src="../img/main/p5.jpg"></li>
+                <li><img src="../img/main/p6.jpg"></li>
+                <li><img src="../img/main/p7.jpg"></li>
+                <li><img src="../img/main/p8.jpg"></li>
+            </ul>
+            <div class="btn">
+                <p>LOAD MORE</p>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact_img">
+                <div class="table_box">
+                    <div class="cell_box">
+                        <div class="tact">
+                            <h1>contact</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="where">
+            <h2>WHERE I WORK</h2>
+            <p><em>I'd love your feedback!</em></p>
+            <div class="where_box clear">
+                <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=KyBYdi313l4OR483TRKx&submodules=geocoder"></script>
+                <div class="section" id="maps">
+                </div>
+                <script>
+                    var map = new naver.maps.Map('maps');
+                        var myaddress = '서울 마포구 서강로 144';// 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
+                        naver.maps.Service.geocode({address: myaddress}, function(status, response) {
+                            if (status !== naver.maps.Service.Status.OK) {
+                                return alert(myaddress + '의 검색 결과가 없거나 기타 네트워크 에러');
+                            }
+                            var result = response.result;
+                            // 검색 결과 갯수: result.total
+                            // 첫번째 결과 결과 주소: result.items[0].address
+                            // 첫번째 검색 결과 좌표: result.items[0].point.y, result.items[0].point.x
+                            var myaddr = new naver.maps.Point(result.items[0].point.x, result.items[0].point.y);
+                            map.setCenter(myaddr); // 검색된 좌표로 지도 이동
+                            // 마커 표시
+                            var marker = new naver.maps.Marker({
+                                position: myaddr,
+                                map: map
+                            });
+                        });
+                        </script>
+
+                <ul>
+                    <li><span class="fa fa-map-marker"></span> <span>Chicago, US</span></li>
+                    <li><span class="fa fa-phone"></span> <span>Phone: +00 151515</span></li>
+                    <li><span class="fa fa-envelope"></span> <span>Email: mail@mail.com</span></li>
+                    <li><span>Swing by for a cup of<span></span> , or leave me a note:</span></li>
+                    <input type="text" name="username" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" name="message" placeholder="Message">
+                    <button type="button" name="send" class="glyphicon glyphicon-send" value="SEND MESSAGE"><span>SEND
+                            MESSAGE</span></button>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="foot_btn">
+                <span class="fa fa-arrow-up"></span>
+                <span>To the top</span>
+            </div>
+            <div class="sns">
+                <span class="fa fa-facebook-official"></span>
+                <span class="fa fa-instagram"></span>
+                <span class="fa fa-snapchat-square"></span>
+                <span class="fa fa-pinterest-p"></span>
+                <span class="fa fa-twitter"></span>
+                <span class="fa fa-linkedin"></span>
+            </div>
+            <div class="footer_txt">
+                <a href="#"><span>Powered by w3.css</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
